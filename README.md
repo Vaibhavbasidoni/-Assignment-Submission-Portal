@@ -16,7 +16,7 @@ Prerequisites:
 Setup and Running Instructions:
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/assignment-submission-portal.git
+   git clone https://github.com/Vaibhavbasidoni/-Assignment-Submission-Portal.git
    cd assignment-submission-portal
 
 2. Install dependencies:
@@ -110,9 +110,6 @@ Troubleshooting:
 - For any "Module not found" errors, try deleting the node_modules folder and running npm install again.
 - If you get authentication errors in Postman, ensure you're using the correct and up-to-date token in the Authorization header.
 
-Security Notes:
-- Never commit your .env file to version control.
-- In a production environment, ensure you're using HTTPS and have proper security measures in place.
 
 API Endpoints:
 
@@ -129,8 +126,4 @@ Admins:
 - POST /api/admins/assignments/:id/accept - Accept an assignment (requires authentication)
 - POST /api/admins/assignments/:id/reject - Reject an assignment (requires authentication)
 
-Contributing:
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests.
 
-License:
-This project is licensed under the MIT License - see the LICENSE.md file for details.
